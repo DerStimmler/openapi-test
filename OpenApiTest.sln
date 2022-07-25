@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{17DED1FB-1C45-430B-A209-109AC20C0677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenapiTest.Api", "packages\api\OpenapiTest.Api.csproj", "{94A5A210-3E9F-47CB-960C-0AF9FB5221FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94A5A210-3E9F-47CB-960C-0AF9FB5221FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A5A210-3E9F-47CB-960C-0AF9FB5221FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A5A210-3E9F-47CB-960C-0AF9FB5221FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A5A210-3E9F-47CB-960C-0AF9FB5221FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94A5A210-3E9F-47CB-960C-0AF9FB5221FD} = {17DED1FB-1C45-430B-A209-109AC20C0677}
+	EndGlobalSection
+EndGlobal

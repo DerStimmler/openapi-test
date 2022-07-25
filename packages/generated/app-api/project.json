@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "packages/generated/app-api/src",
+  "prefix": "openapi-test",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/generated/app-api"],
+      "options": {
+        "jestConfig": "packages/generated/app-api/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "packages/generated/app-api/**/*.ts",
+          "packages/generated/app-api/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

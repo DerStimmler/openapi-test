@@ -1,0 +1,7 @@
+<router-outlet></router-outlet>
+<ng-container *ngIf="weather$ | async as weather">
+  <ul *ngFor="let entry of weather">
+    <li>{{entry.date | date}}</li>
+    <li>{{entry.temperatureC}} °C</li>
+  </ul>
+</ng-container>
